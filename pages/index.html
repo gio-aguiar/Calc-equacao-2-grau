@@ -1,69 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <title>Segundo o grau..</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header class="header">
-            <img class="tituloHeader" src="../img/Segundoº.png" alt="Título">
-            <img class="livro" src="../img/logo2.png" alt="Livro">
-        </header>
-        <div class="responsivoPai">
-            <div class="conteudoExplicativo">
-                <h1 class="tituloExplicativo">Equação de 2º grau: <br> O que é?</h1>
-                <div class="textoExplicativo">
-                    <p>A equação do segundo grau recebe esse nome porque é uma equação polinomial cujo termo de maior grau está elevado ao quadrado. Também chamada de equação quadrática, é representada por:  
-                    <span>ax² + bx + c = 0</span></p>
-        
-                    <p>Numa equação do 2º grau, o x é a incógnita e representa um valor desconhecido. Já as letras a, b e c são chamadas de coeficientes da equação. Os coeficientes são números reais e o coeficiente a tem que ser diferente de zero, pois do contrário passa a ser uma equação do 1º grau.</p>
-        
-                    <p>As equações do 2º grau completas são aquelas que apresentam todos os coeficientes, ou seja a, b e c são diferentes de zero <span>(a, b, c ≠ 0)</span>. Por exemplo, a equação <span>5x2 + 2x + 2 = 0 </span> é completa, pois todos os coeficientes são diferentes de zero <span>(a = 5, b = 2 e c = 2)</span>.Já uma equação é incompleta quando pelo menos um dos seus coeficientes é zero.</p>
-                </div>
-            </div>
-            
-            <div class="responsivoFilho">
-                <div class="calculadora">
-                    <h2 class="tituloCalculo">Bora Calcular?</h2>
-            
-                    <div class="camposCalculo">
-                        <div class="campoAbc">
-                            <label for="a">A =</label>
-                            <input type="text" id="a" class="campoNumero">
-                        </div>
-                        <div class="campoAbc">
-                            <label for="b">B =</label>
-                            <input type="text" id="b" class="campoNumero">
-                        </div>
-                        <div class="campoAbc">
-                            <label for="c">C =</label>
-                            <input type="text" id="c" class="campoNumero">
-                        </div>
-                    </div>
-            
-                    <button onclick="calcular()" id="botaoCalcular">Calcular!</button>
-                </div>
-            
-                <div class="gambiarra">
-                    <div class="conteudoResultado">
-                    <h2>Resultado:</h2>
-                    <div id="resultado">
-            
-                    </div>
-                </div>
-                </div>
-                
-            </div>
+      <header class="header">
+        <img
+          class="tituloHeader"
+          src="../assets/img/Segundoº.png"
+          alt="Título"
+        />
+        <img class="livro" src="../assets/img/logo2.png" alt="Livro" />
+      </header>
+      <div class="responsivoPai">
+        <div class="conteudoExplicativo">
+          <h1 class="tituloExplicativo">
+            Equação de 2º grau: <br />
+            O que é?
+          </h1>
+          <div class="textoExplicativo">
+            <p>
+              A equação do segundo grau recebe esse nome porque é uma equação
+              polinomial cujo termo de maior grau está elevado ao quadrado.
+              Também chamada de equação quadrática, é representada por:
+              <span>ax² + bx + c = 0</span>
+            </p>
+
+            <p>
+              Numa equação do 2º grau, o x é a incógnita e representa um valor
+              desconhecido. Já as letras a, b e c são chamadas de coeficientes
+              da equação. Os coeficientes são números reais e o coeficiente a
+              tem que ser diferente de zero, pois do contrário passa a ser uma
+              equação do 1º grau.
+            </p>
+
+            <p>
+              As equações do 2º grau completas são aquelas que apresentam todos
+              os coeficientes, ou seja a, b e c são diferentes de zero
+              <span>(a, b, c ≠ 0)</span>. Por exemplo, a equação
+              <span>5x2 + 2x + 2 = 0 </span> é completa, pois todos os
+              coeficientes são diferentes de zero
+              <span>(a = 5, b = 2 e c = 2)</span>.Já uma equação é incompleta
+              quando pelo menos um dos seus coeficientes é zero.
+            </p>
+          </div>
         </div>
-    
-        <script src="../script/arquivo.js"></script>
-    
+
+        <div class="responsivoFilho">
+          <div class="calculadora">
+            <h2 class="tituloCalculo">Bora Calcular?</h2>
+
+            <div class="camposCalculo">
+              <div class="campoAbc">
+                <label for="a">A =</label>
+                <input type="text" id="a" class="campoNumero" />
+              </div>
+              <div class="campoAbc">
+                <label for="b">B =</label>
+                <input type="text" id="b" class="campoNumero" />
+              </div>
+              <div class="campoAbc">
+                <label for="c">C =</label>
+                <input type="text" id="c" class="campoNumero" />
+              </div>
+            </div>
+
+            <button onclick="calcular()" id="botaoCalcular">Calcular!</button>
+          </div>
+
+          <div class="gambiarra">
+            <div class="conteudoResultado">
+              <h2>Resultado:</h2>
+              <div id="resultado"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="../script/arquivo.js"></script>
     </div>
-
-</body>
-
+  </body>
 </html>

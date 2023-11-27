@@ -1,170 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Outfit:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Outfit:wght@900&display=swap");
 
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    height: 100vh;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #eeeeeefb
+  height: 100vh;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeeefb;
 }
 
 .header {
-    height: 110px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #FFD59A;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd59a;
 }
 .header .tituloHeader {
-    margin-top: 4rem;
-    width: 180px;
+  margin-top: 4rem;
+  width: 180px;
 }
-.header .livro{
-    width: 85px;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25))
+.header .livro {
+  width: 85px;
+  filter: drop-shadow(4px 4px 4px #00000040);
 }
 
 .conteudoExplicativo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6rem;
-    background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+  background-color: #d9d9d9;
 }
 .tituloExplicativo {
-    margin-top: -35px;
-    padding: 5px;
-    width: 290px;
-    font-size: 19pt;
-    font-family: 'Outfit', sans-serif, Arial, Helvetica;
-    color: #EA7979;
-    border-radius: 50px;
-    background-color: #FFD59A;
+  margin-top: -35px;
+  padding: 5px;
+  width: 290px;
+  font-size: 19pt;
+  font-family: "Outfit", sans-serif, Arial, Helvetica;
+  color: #ea7979;
+  border-radius: 50px;
+  background-color: #ffd59a;
 }
 .textoExplicativo {
-    padding: 0px 30px 30px 30px;
-    line-height: 17pt;
+  padding: 0px 30px 30px 30px;
+  line-height: 17pt;
 }
 .textoExplicativo p {
-    padding-top: 1.5rem;
+  padding-top: 1.5rem;
 }
-.textoExplicativo p span{
-    color: #AF0089;
-    font-weight: 800;
+.textoExplicativo p span {
+  color: #af0089;
+  font-weight: 800;
 }
 
 .calculadora {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6rem;
-    background-color: #D9D9D9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+  background-color: #d9d9d9;
 }
 .tituloCalculo {
-    margin-top: -35px;
-    padding: 15px;
-    width: 260px;
-    font-size: 19pt;
-    font-family: 'Outfit', sans-serif, Arial, Helvetica;
-    color: #EA7979;
-    border-radius: 50px;
-    background-color: #FFD59A;
+  margin-top: -35px;
+  padding: 15px;
+  width: 260px;
+  font-size: 19pt;
+  font-family: "Outfit", sans-serif, Arial, Helvetica;
+  color: #ea7979;
+  border-radius: 50px;
+  background-color: #ffd59a;
 }
 .camposCalculo {
-    margin-top: 2rem;
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
+  margin-top: 2rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .campoAbc {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .campoAbc label {
-    font-weight: 600;
-    color: #EA7979;
+  font-weight: 600;
+  color: #ea7979;
 }
 .campoNumero {
-    text-align: center;
-    width: 65px;
-    height: 50px;
-    border: none;
-    border-radius: 20px;
-    background-color: #FFB7B2;
-    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.25) inset;
+  text-align: center;
+  width: 65px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffb7b2;
+  box-shadow: 1px 4px 5px #00000040 inset;
 }
 #botaoCalcular {
-    margin: 2rem 0 2rem 0;
-    padding: 10px 5px;
-    width: 120px;
-    font-size: 14pt;
-    font-family: 'Outfit', sans-serif, Arial, Helvetica;
-    color: #EA7979;
-    border: none;
-    border-radius: 50px;
-    background-color: #FFD59A;
+  margin: 2rem 0 2rem 0;
+  padding: 10px 5px;
+  width: 120px;
+  font-size: 14pt;
+  font-family: "Outfit", sans-serif, Arial, Helvetica;
+  color: #ea7979;
+  border: none;
+  border-radius: 50px;
+  background-color: #ffd59a;
+  transition: 0.4s;
 }
 
 .conteudoResultado {
-    padding: 20px 30px 50px 30px;
-    background: #FFB7B2;
+  padding: 20px 30px 50px 30px;
+  background: #ffb7b2;
 }
 .conteudoResultado h2 {
-    font-size: 19pt;
-    margin-bottom: 1rem;
-    color: #EA7979;
-    text-transform: uppercase;
-    font-family: 'Outfit', sans-serif, Arial, Helvetica;
+  font-size: 19pt;
+  margin-bottom: 1rem;
+  color: #ea7979;
+  text-transform: uppercase;
+  font-family: "Outfit", sans-serif, Arial, Helvetica;
+}
+#resultado {
+  padding-top: 3rem;
+  font-size: 16pt;
 }
 
 .responsivoPai {
-    background-color: #eeeeeefb;
+  background-color: #eeeeeefb;
 }
 
+/* ===== Responsividade ===== */
+
 @media screen and (min-width: 800px) {
-    .responsivoPai {
-        display: flex;
-    }
+  .responsivoPai {
+    display: flex;
+  }
 
-    .conteudoExplicativo {
-        width: 50%;
-    }
+  .conteudoExplicativo {
+    width: 50%;
+  }
 
-    .responsivoFilho {
-        width: 50%;
-    }
+  .responsivoFilho {
+    width: 50%;
+  }
 
-    .gambiarra {
-        height: 450px;
-        background-color: #D9D9D9;
-    }
-    .conteudoResultado {
-        height: 340px;
-        margin-right: 20px;
-        border-radius: 20px;
-    }
+  .gambiarra {
+    height: 450px;
+    background-color: #d9d9d9;
+  }
+  .conteudoResultado {
+    height: 340px;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+
+  #botaoCalcular:hover {
+    cursor: pointer;
+    color: #ffd59a;
+    background-color: #ea7979;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .tituloExplicativo {
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 16pt;
+    padding-bottom: 2rem;
+    line-height: 30px;
+  }
 
-    .tituloExplicativo {
-        margin-bottom: 30px;
-    }
-    p {
-        font-size: 16pt;
-        padding-bottom: 2rem;
-        line-height: 30px;
-    }
+  .gambiarra {
+    height: 590px;
+    background-color: #d9d9d9;
+  }
 
-    .gambiarra {
-        height: 100vh;
-        background-color: #D9D9D9;
-    }
+  .conteudoResultado {
+    height: 400px;
+  }
 }
