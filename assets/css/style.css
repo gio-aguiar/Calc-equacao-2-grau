@@ -110,7 +110,7 @@
   border: none;
   border-radius: 50px;
   background-color: #ffd59a;
-  transition: 0.4s;
+  transition: 0.70s;
 }
 
 .conteudoResultado {
@@ -176,11 +176,12 @@
   }
 
   .gambiarra {
-    height: 590px;
+    height: 510px;
     background-color: #d9d9d9;
   }
 
   .conteudoResultado {
     height: 400px;
   }
+
 }
